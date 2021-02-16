@@ -24,10 +24,14 @@ Run the py file, and you will be prompted to enter the ticker symbols for your c
 Run the py file, and you will be prompted to enter the ticker symbols for your current stock or bond holdings and the date from which you wish to the historical prices of the stock, bonds or cryptocurrencies in your portfolio. The prices displayed will be from your inputted date to the current day's prices and are derived from the Yahoo Finance API. 
 ![1](https://user-images.githubusercontent.com/57751792/107906803-eca68880-6fb6-11eb-8f96-55ccaf2a8552.JPG)
 
-# Financial Markets Sentiment Analysis
+# Financial Markets Sentiment Analysis - Sample Photo and Inputs
+![1](https://user-images.githubusercontent.com/57751792/108008652-b07e3100-7065-11eb-8d25-1d36e9a38efc.jpg)
 ## How it works 
+Run the py file, and you will be prompted to enter the ticker symbols for your current stock or bond holdings. The program will then gather information using finviz stockscreener for each stock, bond or crypto entered. It will then return the daily sentiment analysis of the each respective issue using the Vader Sentiment Analysis model.  
+![1](https://user-images.githubusercontent.com/57751792/108009005-8d07b600-7066-11eb-8c77-8843b10f3530.JPG)
 
 # Reddit Sentiment Analysis
+Coming soon. 
 ## How it works 
 
 # Thanks For Viewing My Python Project!
