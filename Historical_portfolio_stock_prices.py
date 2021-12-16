@@ -5,7 +5,6 @@ import seaborn as sns
 import quandl
 
 # Insert stock holdings and your Personal quadl API key
-quandl.ApiConfig.api_key = '3bWuEzvjKS3863yeHftA'
 stocks = ["TSLA", "FB", "AMZN", "GOOGL", "MSFT"]
 data_table = quandl.get_table('WIKI/PRICES', ticker = stocks,
                         qopts = { 'columns': ['date', 'ticker', 'adj_close'] },
